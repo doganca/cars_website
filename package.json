@@ -1,0 +1,35 @@
+{
+  "name": "cars",
+  "version": "1.0.0",
+  "description": "simple cars website ",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doganca/cars_website.git"
+  },
+  "keywords": [
+    "Html",
+    "css",
+    "scss",
+    "jquery"
+  ],
+  "author": "Dogancan Yilmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doganca/cars_website/issues"
+  },
+  "homepage": "https://github.com/doganca/cars_website#readme"
+}
