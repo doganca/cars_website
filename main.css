@@ -339,3 +339,83 @@ table {
 
 td {
   padding: 0; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex; }
+
+#features {
+  flex-direction: column; }
+  #features .featuresTop {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center; }
+    #features .featuresTop .sectionHeader {
+      display: block;
+      height: 75px;
+      width: 380px;
+      background-color: red;
+      color: #fff;
+      margin: 20px auto;
+      font-size: 3em;
+      padding-top: 13px; }
+  #features .container {
+    flex-direction: row;
+    justify-content: center;
+    width: 33.33%; }
+    #features .container .col3 {
+      margin-top: 25px;
+      margin-bottom: 25px; }
+      #features .container .col3 .item {
+        text-align: center; }
+
+header .container {
+  margin-bottom: 5px; }
+  header .container .logo {
+    margin-right: auto; }
+    header .container .logo img {
+      display: block;
+      height: 100px;
+      padding-top: 27px; }
+  header .container .menu {
+    margin-top: 22px; }
+  header .container ul {
+    list-style: none;
+    display: flex; }
+    header .container ul li {
+      font-size: 25px; }
+      header .container ul li a {
+        padding: 27px 17px;
+        display: block;
+        color: #535E61;
+        letter-spacing: 2px;
+        transition: all .5s ease; }
+      header .container ul li:hover a {
+        background-color: #ffa1c0;
+        color: #fff; }
+
+#mainSlider {
+  height: 700px;
+  background: url("../img/mer-old.jpeg") center no-repeat;
+  background-size: cover; }
+  #mainSlider #mainCaption {
+    height: 700px;
+    background: rgba(0, 0, 0, 0.7); }
+
+.slider {
+  width: 100%; }
+  .slider .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff; }
+    .slider .caption h1 {
+      font-size: 65px;
+      margin-bottom: 25px; }
+
+#features {
+  height: 500px; }

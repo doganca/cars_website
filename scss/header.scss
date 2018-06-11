@@ -1,0 +1,56 @@
+ header{
+    .container{
+        margin-bottom: 5px;
+        .logo{
+            margin-right: auto;
+           
+            img{
+               display: block;
+                height: 100px;
+                padding-top: 27px;
+
+            }
+        }
+        .menu{
+            margin-top: 22px;
+            
+            }
+            ul{
+                list-style: none;
+                display: flex;
+
+                li{
+                   
+                    font-size: 25px;
+                     
+                    
+                    a{
+                        
+                        padding: 27px 17px;
+                        display: block;
+                        color: $col;
+                        letter-spacing: $letter;
+                        transition: all .5s ease;
+                       
+                     
+                        
+
+                        }
+                        &:hover a{
+                            background-color: $hover;
+                            color: $hoverColor;
+                           
+                        }
+                   
+                    }
+                     
+                     
+                }
+
+            }
+        }
+    
+
+    
+
+ 
